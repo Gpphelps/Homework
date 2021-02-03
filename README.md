@@ -9,7 +9,7 @@ Usage:
 ![screenshot-hw-1](https://user-images.githubusercontent.com/77752180/106664375-fbcb1680-6572-11eb-990d-b0192294eb55.png)
 
 Installation:
-There is no instillation for this program as it is a website. If you would like to access the website visit 
+There is no instillation for this program as it is a website. If you would like to access the website visit https://gpphelps.github.io/Horiseon-Marketing-Homework-1/
 
 Contributing: 
 
