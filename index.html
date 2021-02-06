@@ -13,8 +13,8 @@
     <header class="header"> <!--created a <header> tag with the class "header" instead of the origional <div> tag-->
 
         <h1>Hori<span class="seo">seo</span>n</h1>
-       <!--commented out the following: /!--> 
-        <div>
+       
+        <!--replaced the origional <div> container with a <nav> continer to be more specific-->
          <!--begin nav section-->
          <nav>
             <ul>
@@ -31,14 +31,14 @@
                 </li>
             </ul>
          </nav>
-         <!--nav section ends-->
-        </div>
+         
+        
     </header>
-    <!--end header-->
+    
 
  <!--removed the end </div>  from line 13-->
 
-    <figure class="hero"></figure> <!--changed the  origional <div> <figure> to be more specific-->
+    <img class="hero"></img> <!--changed the  origional <div> <figure> to be more specific-->
     <!--background image ^ -->
     
     <main class= "content"> <!--changed the origional <div> to a <main> to be more specific in the naming of containers-->
@@ -76,12 +76,12 @@
         <!--end social media section-->
         </section>
     </main>
-    <!--end web page main content section-->
+    
 
     <!--aside section, on right, for benefits-->
     <aside class="benefits"> <!--changed the origional <div> below with <aside> to be more specific-->
         <!--leade generation aside-->
-        <div class="benefit-lead">
+        <div class="benefit-lead" id="aside">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="gear funnelling towards money" />
             <p>
@@ -91,7 +91,7 @@
         <!--end lead generation aside-->
 
         <!--brand awarness aside-->
-        <div class="benefit-brand">
+        <div class="benefit-brand" id="aside">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="bright light bulb wearing a suit" />
             <p>
@@ -101,7 +101,7 @@
         <!--end brand awarness aside-->
 
         <!--cost managment aside-->
-        <div class="benefit-cost">
+        <div class="benefit-cost" id="aside">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="gear with coins under it" />
             <p>
@@ -109,7 +109,7 @@
             </p>
         </div>
     </aside> <!--chnaged the origional </div> with </aside>-->
-    <!--end the aside section for benefits-->
+    
     
     <!--begin hidden footer-->
     <footer class="footer"> <!--changed the default <div> with <footer>-->
@@ -118,6 +118,6 @@
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer> <!--replaced default </div> with </footer>-->
-    <!--end hidden footer-->
+    
 </body>
 </html>
